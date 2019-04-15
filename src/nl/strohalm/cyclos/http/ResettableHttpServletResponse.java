@@ -226,17 +226,7 @@ public class ResettableHttpServletResponse implements HttpServletResponse, Reset
                     outputStream.write(b);
                 }
 
-				@Override
-				public boolean isReady() {
-					// TODO Auto-generated method stub
-					return false;
-				}
-
-				@Override
-				public void setWriteListener(WriteListener arg0) {
-					// TODO Auto-generated method stub
-					
-				}
+				
             };
         }
         return servletOutputStream;
@@ -446,28 +436,6 @@ public class ResettableHttpServletResponse implements HttpServletResponse, Reset
         });
     }
 
-	@Override
-	public void setContentLengthLong(long arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public String getHeader(String arg0) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Collection<String> getHeaderNames() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Collection<String> getHeaders(String arg0) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 }

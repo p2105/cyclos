@@ -92,23 +92,7 @@ public class StringBodyRequest extends HttpServletRequestWrapper {
             return in.skip(n);
         }
 
-		@Override
-		public boolean isFinished() {
-			// TODO Auto-generated method stub
-			return false;
-		}
 
-		@Override
-		public boolean isReady() {
-			// TODO Auto-generated method stub
-			return false;
-		}
-
-		@Override
-		public void setReadListener(ReadListener arg0) {
-			// TODO Auto-generated method stub
-			
-		}
 
     }
 
