@@ -27,5 +27,5 @@ import org.apache.lucene.util.Version;
  * @author luis
  */
 public class LuceneUtils {
-    public static final Version LUCENE_VERSION = Version.LUCENE_36;
+    public static final Version LUCENE_VERSION = Version.LUCENE_34;
 }

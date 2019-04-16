@@ -27,15 +27,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import nl.strohalm.cyclos.dao.IndexOperationDAO;
-import nl.strohalm.cyclos.entities.IndexOperation;
-import nl.strohalm.cyclos.entities.IndexOperation.EntityType;
-import nl.strohalm.cyclos.entities.IndexOperation.OperationType;
-import nl.strohalm.cyclos.entities.IndexStatus;
-import nl.strohalm.cyclos.entities.Indexable;
-import nl.strohalm.cyclos.entities.exceptions.DaoException;
-import nl.strohalm.cyclos.utils.ClassHelper;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -45,6 +36,15 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
+
+import nl.strohalm.cyclos.dao.IndexOperationDAO;
+import nl.strohalm.cyclos.entities.IndexOperation;
+import nl.strohalm.cyclos.entities.IndexOperation.EntityType;
+import nl.strohalm.cyclos.entities.IndexOperation.OperationType;
+import nl.strohalm.cyclos.entities.IndexStatus;
+import nl.strohalm.cyclos.entities.Indexable;
+import nl.strohalm.cyclos.entities.exceptions.DaoException;
+import nl.strohalm.cyclos.utils.ClassHelper;
 
 /**
  * Handles configuration and operation of Lucene indexes

@@ -1,5 +1,5 @@
-<div style="page-break-after: always;">
-	<br><br>An access device is a payment medium
+<div style="page-break-after: always;"
+<br><br>An access device is a payment medium
 that can be used to make payments outside of Cyclos. This can be a POS
 (point of sale) device in combination with a credit or debit card.<br>
 A member with an active card can make payments at a the webPOS channel,
